@@ -10,7 +10,7 @@
 
 The armor trim tooltip looks like this:
 
-[image here...]
+![trim tooltip](https://cdn.modrinth.com/data/LTFmkF0X/images/3f0039b7c21a77e963e2522180d9526417f52738.png)
 
 It looks pretty great! This mod changes enchantment tooltips to be formatted like armor trim tooltips are.
 
