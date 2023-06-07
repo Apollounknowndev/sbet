@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "sbet",
+	"version": "${version}",
+	"name": "Subjectively Better Enchantment Tooltips",
+	"description": "Reformatted enchantment tooltips to be consistent with armor trim tooltips!",
+	"authors": [
+		"Apollo"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/sbet/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.worldgen.sbet.SubjectivelyBetterEnchantmentTooltips"
+		]
+	},
+	"mixins": [
+		"sbet.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"minecraft": ">=1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.worldgen.sbet.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EnchantmentMixin",
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
