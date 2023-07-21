@@ -17,11 +17,11 @@ public abstract class EnchantmentMixin {
     private void sbet$coloredEnchantmentText(int level, CallbackInfoReturnable<Text> cir, MutableText mutableText) {
         int color;
         if(((Enchantment)(Object)this).isCursed()) {
-            color = (int) ConfigHandler.getConfigValue("cursed");
+            color = ConfigHandler.getConfig().tooltipColors().cursedColor();
         } else if(((Enchantment)(Object)this).isTreasure()) {
-            color = (int) ConfigHandler.getConfigValue("treasure");
+            color = ConfigHandler.getConfig().tooltipColors().treasureColor();
         } else {
-            color = (int) ConfigHandler.getConfigValue("regular");
+            color = ConfigHandler.getConfig().tooltipColors().regularColor();
         }
         mutableText.setStyle(Style.EMPTY.withColor(color));
     }
