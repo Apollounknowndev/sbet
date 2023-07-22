@@ -87,8 +87,8 @@ public class ConfigCodec {
             "Decreases time to catch a fish"
     ));
     put(Enchantments.MENDING, List.of(
-            "Collected experience is",
-            "used to repair the item"
+            "Collected experience",
+            "repairs the item"
     ));
     put(Enchantments.MULTISHOT, List.of(
             "Fires three arrows whilst",
@@ -102,11 +102,11 @@ public class ConfigCodec {
             "Increases arrow damage"
     ));
     put(Enchantments.PROJECTILE_PROTECTION, List.of(
-            "Increased protection against",
+            "Increases protection against",
             "projectiles"
     ));
     put(Enchantments.PROTECTION, List.of(
-            "Increased general protection"
+            "Increases general protection"
     ));
     put(Enchantments.PUNCH, List.of(
             "Increases how far mobs are",

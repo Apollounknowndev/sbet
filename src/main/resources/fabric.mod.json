@@ -7,6 +7,10 @@
 	"authors": [
 		"Apollo"
 	],
+	"contributors": [
+		"unroman (Translations)",
+		"surfishs (Translations)"
+	],
 	"contact": {},
 	"license": "MIT",
 	"icon": "assets/sbet/icon.png",
